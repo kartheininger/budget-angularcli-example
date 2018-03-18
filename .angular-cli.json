@@ -26,7 +26,13 @@
       "environments": {
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
-      }
+      },
+      "budgets": [
+        { "type": "all", "baseline": "500kb", "warning": "100kb" },
+        { "type": "bundle", "name": "main", "baseline": "400kb", "error": "100kb" },
+        { "type": "bundle", "name": "polyfills", "baseline": "50kb", "maximumWarning": "20%" },
+        { "type": "any", "maximumWarning": "500kb" }
+      ]
     }
   ],
   "e2e": {

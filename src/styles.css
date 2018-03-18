@@ -1,1 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+/* I only included all material prebuilt themes to get the size of the styles.bundle.js a bit bigger */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
+@import "~@angular/material/prebuilt-themes/purple-green.css";

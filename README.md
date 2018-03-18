@@ -1,6 +1,9 @@
 # BudgetExample
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+it is a little example app to see how the new budget-
+
+For the blog post about this topic have a look here: `http://www.angularx.de/whats-that-budget-in-angular-cli/`
 
 ## Development server
 
