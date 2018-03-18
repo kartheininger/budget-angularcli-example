@@ -28,10 +28,10 @@
         "prod": "environments/environment.prod.ts"
       },
       "budgets": [
-        { "type": "all", "baseline": "500kb", "warning": "100kb" },
-        { "type": "bundle", "name": "main", "baseline": "400kb", "error": "100kb" },
-        { "type": "bundle", "name": "polyfills", "baseline": "50kb", "maximumWarning": "20%" },
-        { "type": "any", "maximumWarning": "500kb" }
+        { "type": "all", "baseline": "800kb", "warning": "1kb" },
+        { "type": "bundle", "name": "main", "baseline": "800kb", "maximumWarning": "100kb", "minimumWarning": "1kb" },
+        { "type": "bundle", "name": "polyfills", "baseline": "100kb", "warning": "2%" },
+        { "type": "any", "maximumWarning": "900kb" }
       ]
     }
   ],
